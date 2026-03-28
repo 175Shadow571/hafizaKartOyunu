@@ -1,0 +1,95 @@
+const characterGroups = [
+  // Grup 1: En bilinen erkek karakterler
+  [
+    { id: 69, name: "Batman" },
+    { id: 106, name: "Black Panther" },
+    { id: 156, name: "Captain Marvel" },
+    { id: 213, name: "Deadpool" },
+    { id: 263, name: "Flash" },
+    { id: 299, name: "Green Goblin" },
+    { id: 332, name: "Hulk" },
+    { id: 346, name: "Iron Man" },
+    { id: 370, name: "Joker" },
+    { id: 527, name: "Professor X" },
+  ],
+  // Grup 2: Çok bilinen erkek karakterler
+  [
+    { id: 556, name: "Rhino" },
+    { id: 576, name: "Scarecrow" },
+    { id: 598, name: "Silver Surfer" },
+    { id: 620, name: "Spider-Man" },
+    { id: 630, name: "Star-Lord" },
+    { id: 644, name: "Superman" },
+    { id: 655, name: "Thanos" },
+    { id: 659, name: "Thor" },
+    { id: 687, name: "Venom" },
+    { id: 717, name: "Wolverine" },
+  ],
+  // Grup 3: Bilinen erkek karakterler
+  [
+    { id: 395, name: "Kraven the Hunter" },
+    { id: 405, name: "Lex Luthor" },
+    { id: 414, name: "Loki" },
+    { id: 423, name: "Magneto" },
+    { id: 432, name: "Martian Manhunter" },
+    { id: 457, name: "Mister Freeze" },
+    { id: 470, name: "Moon Knight" },
+    { id: 489, name: "Nick Fury" },
+    { id: 508, name: "Ozymandias" },
+    { id: 530, name: "Punisher" },
+  ],
+  // Grup 4: Orta düzeyde bilinen erkek karakterler (devam)
+  [
+    { id: 187, name: "Corsair" },
+    { id: 191, name: "Crystal" },
+    { id: 212, name: "Deadman" },
+    { id: 222, name: "Doctor Doom" },
+    { id: 225, name: "Doctor Octopus" },
+    { id: 226, name: "Doctor Strange" },
+    { id: 231, name: "Doppelganger" },
+    { id: 235, name: "Ego" },
+    { id: 246, name: "Etrigan" },
+    { id: 258, name: "Firelord" },
+  ],
+  // Grup 5: Orta düzeyde bilinen erkek karakterler
+  [
+    { id: 274, name: "Gambit" },
+    { id: 280, name: "Ghost Rider" },
+    { id: 298, name: "Green Arrow" },
+    { id: 310, name: "Harry Potter" },
+    { id: 322, name: "Hellboy" },
+    { id: 48, name: "Atlas" },
+    { id: 336, name: "Hybrid" },
+    { id: 345, name: "Iron Fist" },
+    { id: 367, name: "John Constantine" },
+    { id: 374, name: "Juggernaut" },
+  ],
+  // Grup 6: Az bilinen erkek karakterler (devam)
+  [
+    { id: 82, name: "Big Barda" },
+    { id: 91, name: "Bird-Man" },
+    { id: 112, name: "Blade" },
+    { id: 110, name: "Blackwing" },
+    { id: 122, name: "Bloodaxe" },
+    { id: 132, name: "Booster Gold" },
+    { id: 139, name: "Brundlefly" },
+    { id: 147, name: "Cameron Hicks" },
+    { id: 161, name: "Captain Universe" },
+    { id: 413, name: "Lobo" },
+  ],
+  // Grup 7: Az bilinen erkek karakterler
+  [
+    { id: 4, name: "Abomination" },
+    { id: 16, name: "Alex Mercer" },
+    { id: 18, name: "Alien" },
+    { id: 136, name: "Brainiac" },
+    { id: 33, name: "Anti-Spawn" },
+    { id: 647, name: "Sylar" },
+    { id: 53, name: "Atom III" },
+    { id: 58, name: "Azrael" },
+    { id: 62, name: "Bane" },
+    { id: 72, name: "Battlestar" },
+  ],
+];
+
+export default characterGroups
